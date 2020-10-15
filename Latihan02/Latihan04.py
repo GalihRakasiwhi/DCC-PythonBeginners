@@ -32,6 +32,8 @@ print (x is y) #cek apakah instance x adalah instansi y?
 #false true = false
 #false false = false
 
+#git branch nama_branch
+#git checkout nama_branch
 #git add .
 #git commit
 #git checkout main (pindah ke branch main)

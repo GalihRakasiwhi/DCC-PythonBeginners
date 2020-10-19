@@ -14,7 +14,7 @@
 
 def bilanganHabis3(parameter):
     for bilangan in range(parameter):
-        if bilangan == 0: #if parameter = 0
+        if bilangan == 0: #if parameter == "" or if parameter <3:
             continue
         if bilangan % 3 == 0:
             print (bilangan)

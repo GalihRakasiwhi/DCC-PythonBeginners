@@ -1,7 +1,7 @@
 #loop for
-prime = [2,3,5,7]
-for prime in prime:
-    print(prime)
+#prime = [2,3,5,7]
+#for prime in prime:
+#    print(prime)
 
 #print out 0,1,2,3,4
 for x in range(5):
@@ -35,4 +35,3 @@ for x in range(10): #range dari 0-10
     if x % 2 == 0: #jika x modulu 2 == 0
         continue # lanjut aja bro, gak usah ikuti perintah dibawah lu (diblok yang sama ya)
     print(x)
-

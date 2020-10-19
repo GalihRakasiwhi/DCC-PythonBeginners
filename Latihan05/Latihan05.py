@@ -1,7 +1,11 @@
 #loop for
 #prime = [2,3,5,7]
 #for prime in prime:
+<<<<<<< HEAD
 #    print(prime)
+=======
+#    print(prime)#
+>>>>>>> exercise03
 
 #print out 0,1,2,3,4
 for x in range(5):

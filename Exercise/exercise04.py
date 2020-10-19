@@ -13,10 +13,16 @@
 #fucntion menampilkan urutan bilangan yang habis dibagi 3, argumentnnya range
 
 def bilanganHabis3(parameter):
+<<<<<<< HEAD
     if parameter == "" or parameter < 3:
         return
         
     for bilangan in range(parameter):
+=======
+    for bilangan in range(parameter):
+        if bilangan == 0: #if parameter == "" or if parameter <3:
+            continue
+>>>>>>> exercise03
         if bilangan % 3 == 0:
             print (bilangan)
 

@@ -17,6 +17,9 @@ def bilanganHabis3(parameter):
         return
         
     for bilangan in range(parameter):
+        if bilangan == 0:
+            continue
+
         if bilangan % 3 == 0:
             print (bilangan)
 

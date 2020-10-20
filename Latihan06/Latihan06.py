@@ -12,7 +12,6 @@ def printNegative(index, length):
     if index == "" and length == "":
         return
 
-
     while index < length:
         if index % 2 == 1:
             print(index)
